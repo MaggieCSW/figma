@@ -6,9 +6,10 @@
 
 * {box-sizing: border-box;}
 
-
-/* ------------------------------------header-------------------------------------- */
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .login-btn, .create-btn {
     font-weight: 800;
@@ -16,15 +17,10 @@
 
 #bottomHeaderSection {
     background-color: var(--top);
-    border-bottom: 4px solid black;
 }
 
-#bottomHeader {
-    padding-top: 15px;
-}
-
-#bottomHeader {
-    height: 300px;
+#topHeader {
+    border-bottom: 2px solid black;
 }
 
 .bottom-header-text {
@@ -34,12 +30,6 @@
 .bottom-header-text, .bottom-header-image {
     margin-top: 25px;
 }
-
-
-
-
-/* -------------------------------------main------------------------------------- */
-
 
 #cardOne {
     height: 411px;
@@ -55,14 +45,8 @@
     border-style: none;
 }
 
-
-
 #cardNumOne, #cardNumThree {
     padding-top: 31px;
-}
-
-#topMainSection {
-    border-bottom: 4px solid black;
 }
 
 .h1-heading, .h1-text, .sub-text {
@@ -75,11 +59,9 @@
     width: 60%;
 }
 
-
 #topMainSection {
     background-color: rgb(154, 102, 102);
 }
-
 
 #bottomMainSection {
     padding: 15px 0 15px;
@@ -87,32 +69,32 @@
 
 }
 
-
-
-/* ------------------------------------footer--------------------------------------- */
-
 #aboutSection {
     padding-left: 80px;
+    padding-right: 50px;
 }
 
 #contactSection {
-    padding-left: 75px;
+    padding-top: 5px;
+    padding-left: 40px;
+    
 }
 
-.social-nav {
-    padding-left: 130px;
+#reviewSection {
+    padding-top: 25px;
+    padding-left: 60px;
 }
 
+#topFooter {
+    padding-bottom: 20px;
+    border-top: 4px solid black;
+}
 
 .contact-text {
     padding-top: 20px;
 }
 
-
-
-#colophonSection {
-    padding-top: 20px;
-    padding-right: 140px;
-    height: 60px;
+.colophon {
+    margin: 0;
 }
 
